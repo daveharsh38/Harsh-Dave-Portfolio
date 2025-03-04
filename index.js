@@ -11,7 +11,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Form submission handling
 document.getElementById('contact-form').addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Thank you for your message! I will get back to you soon.');
+  alert('Something went wrong :(');
+  alert('Connect via LinkedIn instead !!!');
   this.reset();
 });
 
